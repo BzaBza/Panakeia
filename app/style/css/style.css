@@ -1,3 +1,20 @@
+
+.lists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0; }
+  .list li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+
 .main-header {
   display: flex;
   justify-content: space-around;
@@ -11,13 +28,11 @@
     margin-right: 2em; }
 
 
+.our-news {
+  padding: 0 0 4em 0; }
+  .our-news header {
+    padding: 3em 0 3em 0; }
+
 .welcome {
   min-height: 92vh;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, transparent 100%); }
-
-.welcome-list {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0; }
-  .welcome-list li {
-    list-style: none; }
