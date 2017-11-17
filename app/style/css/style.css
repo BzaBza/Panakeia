@@ -1,12 +1,15 @@
 .main-footer {
   padding: 5em;
   background: url("../../graphic/images/photo-1428660386617-8d277e7deaf2.png");
-  background-size: cover;
   background-position: bottom center;
-  color: white; }
+  color: rgba(255, 255, 255, 0.5); }
+  .main-footer a {
+    color: white; }
 
-.ipsum-dolor .container {
-  padding: 5em; }
+.ipsum-dolor {
+  background: ghostwhite; }
+  .ipsum-dolor .container {
+    padding: 5em; }
 
 button.orange {
   color: white;
@@ -95,6 +98,7 @@ input:focus {
 .navbar-brand {
   line-height: 36px; }
   .navbar-brand h1 {
+    font-weight: 700;
     font-size: 36px;
     color: #31353e;
     padding: 0;
@@ -102,14 +106,15 @@ input:focus {
   .navbar-brand p {
     color: #dd4b2b;
     font-size: 16px;
-    margin: 0; }
+    margin: 0;
+    letter-spacing: 0.96px; }
 
 .newsletter {
   padding: 5em;
   background: url("../../graphic/images/photo-1428660386617-8d277e7deaf2.png");
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
+  background-attachment: scroll;
   color: white; }
   .newsletter form {
     border: 1px solid rgba(255, 255, 255, 0.5);
@@ -124,6 +129,7 @@ input:focus {
       color: #f3f4f6; }
 
 .our-news {
+  background: ghostwhite;
   padding: 0 0 4em 0; }
   .our-news header {
     margin: 3em 0 3em 0; }
