@@ -2,12 +2,19 @@
   padding: 5em;
   background: url("../../graphic/images/photo-1428660386617-8d277e7deaf2.png");
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: bottom center;
   color: white; }
 
 .ipsum-dolor .container {
   padding: 5em; }
+
+button.orange {
+  color: white;
+  background-color: #dd4b2b; }
+
+button.violet {
+  background-color: #4b4e73;
+  color: white; }
 
 .lists {
   display: flex;
@@ -16,12 +23,13 @@
   align-items: center;
   background-color: #d75d0e;
   color: white;
-  padding: 5em; }
-  .lists ul li {
-    padding-right: 3em; }
+  padding: 5em 0 5em 0; }
+
+.list {
+  width: 100%; }
 
 body {
-  font-family: "Roboto Slab", serif !important; }
+  font-family: 'Roboto Slab', serif !important; }
 
 .list {
   display: flex;
@@ -46,6 +54,15 @@ body {
   background-color: #ffffff;
   border: 1px solid rgba(255, 255, 255, 0.5);
   color: #612316; }
+
+button:focus {
+  outline: 0 !important; }
+
+button {
+  cursor: pointer; }
+
+input:focus {
+  outline: 0 !important; }
 
 .main-header {
   display: flex;
@@ -94,6 +111,17 @@ body {
   background-repeat: no-repeat;
   background-position: bottom center;
   color: white; }
+  .newsletter form {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 30px; }
+    .newsletter form input {
+      height: 100%;
+      background: none;
+      border: none;
+      color: #f3f4f6;
+      padding-left: 1em; }
+    .newsletter form input::placeholder {
+      color: #f3f4f6; }
 
 .our-news {
   padding: 0 0 4em 0; }
