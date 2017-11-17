@@ -1,9 +1,27 @@
+.main-footer {
+  padding: 5em;
+  background: url("../../graphic/images/photo-1428660386617-8d277e7deaf2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  color: white; }
+
+.ipsum-dolor .container {
+  padding: 5em; }
 
 .lists {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  background-color: #d75d0e;
+  color: white;
+  padding: 5em; }
+  .lists ul li {
+    padding-right: 3em; }
+
+body {
+  font-family: "Roboto Slab", serif !important; }
 
 .list {
   display: flex;
@@ -14,9 +32,20 @@
     list-style: none;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    text-align: center; }
     .list li ul {
       padding: 0; }
+    .list li h3 {
+      padding: 1em 1em 0.5em 1em;
+      width: 100%; }
+
+.button {
+  padding: 0.5em 2em 0.5em 2em;
+  border-radius: 27px;
+  background-color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: #612316; }
 
 .main-header {
   display: flex;
@@ -29,7 +58,6 @@
   display: flex;
   justify-content: space-around; }
   .nav li {
-    padding: 8px 16px 8px 16px;
     margin-right: 1em; }
     .nav li a {
       font-size: 18px;
@@ -41,17 +69,38 @@
     .nav li:hover a {
       color: white; }
 
-.active {
+.active:active {
   border-radius: 25px;
   background-color: #dd4b2b; }
-  .active a {
+  .active:active a {
     color: white; }
 
+.navbar-brand {
+  line-height: 36px; }
+  .navbar-brand h1 {
+    font-size: 36px;
+    color: #31353e;
+    padding: 0;
+    margin: 0; }
+  .navbar-brand p {
+    color: #dd4b2b;
+    font-size: 16px;
+    margin: 0; }
+
+.newsletter {
+  padding: 5em;
+  background: url("../../graphic/images/photo-1428660386617-8d277e7deaf2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  color: white; }
 
 .our-news {
   padding: 0 0 4em 0; }
   .our-news header {
-    padding: 3em 0 3em 0; }
+    margin: 3em 0 3em 0; }
+    .our-news header h3 {
+      font-weight: 700; }
 
 .welcome {
   min-height: 92vh;
@@ -63,3 +112,13 @@
   color: white;
   display: flex;
   align-items: center; }
+
+.welcome-header {
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 300; }
+
+.top-text {
+  font-size: 72px;
+  font-weight: 200; }
